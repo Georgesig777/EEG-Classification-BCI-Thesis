@@ -1,9 +1,15 @@
 # Analysis and classification of electroencephalographic motor imagery signals through deep learning methods
 
-This repository contains the MATLAB code developed as part of my M.Eng. thesis at the University of West Attica. The goal was to classify EEG signals during motor imagery tasks using deep learning models such as CNNs, LSTMs, and Feedforward Networks (FFNs).
+This project was developed as part of my M.Eng. thesis at the University of West Attica and focuses on the classification of electroencephalographic (EEG) signals during motor imagery tasks using Deep Learning techniques. The aim is to contribute to brain-computer interface (BCI) systems that can enable neuroprosthetic applications for individuals with mobility impairments.
 
-📄 **Read the full thesis:**  
-🔗 [Polynoe Library - University of West Attica](https://polynoe.lib.uniwa.gr/xmlui/handle/11400/10006)
+Three deep learning architectures were implemented and evaluated:
+- **Feedforward Neural Network (FFN)**
+- **Long Short-Term Memory (LSTM) Network**
+- **Convolutional Neural Network (CNN)**
+
+Using data from BCI Competition IV – Dataset 1, the project investigates the performance of these models in classifying raw EEG signals with minimal preprocessing. The **CNN model** achieved the highest accuracy, reaching up to **90% on test data**, outperforming the other models in capturing spatiotemporal dependencies in the signals.
+
+📄 [Read the full thesis on Polynoe →](https://polynoe.lib.uniwa.gr/xmlui/handle/11400/10006)
 
 ---
 
