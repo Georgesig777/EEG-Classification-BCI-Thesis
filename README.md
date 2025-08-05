@@ -1,4 +1,4 @@
-# EEG Signal Classification for Motor Imagery using Deep Learning
+# Analysis and classification of electroencephalographic motor imagery signals through deep learning methods
 
 This repository contains the MATLAB code developed as part of my M.Eng. thesis at the University of West Attica. The goal was to classify EEG signals during motor imagery tasks using deep learning models such as CNNs, LSTMs, and Feedforward Networks (FFNs).
 
