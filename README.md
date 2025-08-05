@@ -22,14 +22,15 @@ The system classifies EEG signals recorded during motor imagery (MI) tasks using
 ---
 
 ## 📁 Repository Structure
-├── cnn_best.m              # CNN model implementation
-├── Swallow_LSTM.m          # LSTM model implementation
-├── ffn_trial.m             # FFN model with trial-based testing
-├── preprocessEEG.m         # EEG preprocessing (bandpass filtering)
-├── visualizeEEGSegment.m   # EEG visualization for raw vs filtered data
-├── swallow_create_data.m   # Data creation for CNN, LSTM models
-├── create_data_stacked     # Data creation for FFN model
-├── visual.m                # Additional visualization functions
+
+	•	cnn_best.m – CNN model implementation
+	•	Swallow_LSTM.m – LSTM model implementation
+	•	ffn_trial.m – Feedforward Neural Network (FFN) with trial-based testing
+	•	create_data_stacked.m – Trial-based data creation script used for FFN
+	•	preprocessEEG.m – EEG preprocessing using a 4th-order Butterworth bandpass filter (8–35 Hz)
+	•	visualizeEEGSegment.m – Visualization of EEG signal before and after preprocessing
+	•	swallow_create_data.asv – Archived/older version of EEG data creation
+	•	visual.m – Utility functions for EEG signal plotting
 ---
 
 ## 🧪 Dataset Used
